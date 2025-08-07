@@ -25,7 +25,7 @@ local function setup(palette)
 		PreProc = { fg = palette.green, },
 		Include = { fg = palette.turqoise, },
 		Define = { fg = palette.turqoise, },
-		Title = { fg = palette.purple, },
+		Title = { fg = palette.cyan, },
 		Macro = { fg = palette.turqoise, },
 		PreCondit = { fg = palette.purple, },
 		Type = { fg = palette.purple, },
@@ -53,7 +53,7 @@ local function setup(palette)
 		StatusLineTerm = { fg = palette.text, bg = palette.darker, },
 		StatusLineTermNC = { fg = palette.muted, },
 
-		Directory = { fg = palette.purple, },
+		Directory = { fg = palette.cyan, },
 		DiffAdd = { fg = palette.base, bg = palette.yellow, },
 		DiffChange = { fg = palette.orange, },
 		DiffDelete = { fg = palette.red, },
